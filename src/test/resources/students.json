@@ -1,0 +1,61 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "location": "New York",
+      "phone": "+1-123-456-7890",
+      "courses": [
+        "Mathematics",
+        "Physics",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "location": "California",
+      "phone": "+1-987-654-3210",
+      "courses": [
+        "Chemistry",
+        "Biology",
+        "Statistics"
+      ]
+    },
+    {
+      "id": "0a29",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    },
+    {
+      "id": "4fd8",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    },
+    {
+      "id": "2dfb",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    },
+    {
+      "id": "e6d9",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    },
+    {
+      "id": "9a42",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    },
+    {
+      "id": "7025",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    },
+    {
+      "id": "9978",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    }
+  ]
+}
