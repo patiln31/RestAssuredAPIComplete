@@ -3,6 +3,7 @@ package Day3;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Map;
@@ -23,7 +24,7 @@ public class HeadersDemo {
                 .log().all();
     }
 
-    @Test(enabled = true,priority = 1)
+    @Test(enabled = false,priority = 1)
     public void testAllHeadersInfo(){
         Response response = given()
                 .when()
@@ -33,6 +34,18 @@ public class HeadersDemo {
         for (Header h : headers){
             System.out.println(h.getName()+" = "+h.getValue());
         }
+    }
+
+    @Test(enabled = true,priority = 1)
+    public void test1(){
+        Response response = given()
+                .when()
+                .get("https://reqres.in/api/users?page=2")
+                .then()
+                .extract()
+                .response();
+
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>> "+response.path("data[3].last_name"));
     }
 
 }

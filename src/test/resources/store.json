@@ -1,0 +1,36 @@
+{
+  "store": {
+    "book": [
+      {
+        "author": "Nile Rees",
+        "category": "reference",
+        "price": 150.50,
+        "title": "Sayings of the Century"
+      },
+      {
+        "author": "Nile Rees",
+        "category": "fiction",
+        "price": 100.50,
+        "title": "Sword of Honour"
+      },
+      {
+        "author": "John Smith",
+        "category": "science",
+        "price": 200.00,
+        "title": "The Quantum World"
+      },
+      {
+        "author": "Emily Clark",
+        "category": "history",
+        "price": 180.75,
+        "title": "Ancient Civilizations"
+      },
+      {
+        "author": "Mark Twain",
+        "category": "fiction",
+        "price": 120.99,
+        "title": "Adventures of Huckleberry Finn"
+      }
+    ]
+  }
+}
